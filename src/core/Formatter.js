@@ -235,9 +235,9 @@ export default class Formatter {
 
   addNewline(query) {
     query = trimSpacesEnd(query);
-    if (!query.endsWith('\n')) {
-      query += '\n';
-    }
+//    if (!query.endsWith('\n')) {
+//      query += '\n';
+//    }
     return query + this.indentation.getIndent();
   }
 
