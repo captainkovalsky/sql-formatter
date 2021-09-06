@@ -1,5 +1,5 @@
 // Only removes spaces, not newlines
-export const trimSpacesEnd = (str) => str.replace(/[ \t]+$/u, '');
+export const trimSpacesEnd = (str) => str;
 
 // Last element from array
 export const last = (arr) => arr[arr.length - 1];
